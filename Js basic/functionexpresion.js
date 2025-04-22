@@ -37,6 +37,24 @@ const greets = function(name) {
   }
   
   displayMessage(greets); 
+
+  //callbcak function
+
+  function fetchData(callback) {    
+   
+    setTimeout(() => {
+      const data = [{ id: 1, name: "John Doe" }, {id: 2, name: "Jane Doe" }]; // Simulating data fetching
+      callback(data); // Calling the callback function with the fetched data
+    }, 2000);
+  } 
+
+  fetchData(function(data) {
+    console.log("Fetched data:", data);
+  })
+
+  
+
+
   
 
 
