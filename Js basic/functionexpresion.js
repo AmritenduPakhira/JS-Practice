@@ -15,10 +15,28 @@ console.log("IIFE: This is an immediately invoked function expression.");
     })
     ()
 
+
+
+    //
+
     const greetings =  function greet(name){
         console.log("Hello " + name);
     }
 
     greetings("John"); // function expression
+
+
+    // Assigning a function to a variable (First-Class Function)
+const greets = function(name) {
+    return "Hello, " + name;
+  };
+  
+  // Passing function as argument (callback)
+  function displayMessage(fn) {
+    console.log(fn("John"));
+  }
+  
+  displayMessage(greets); 
+  
 
 
