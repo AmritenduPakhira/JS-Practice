@@ -15,4 +15,10 @@ console.log("IIFE: This is an immediately invoked function expression.");
     })
     ()
 
+    const greetings =  function greet(name){
+        console.log("Hello " + name);
+    }
+
+    greetings("John"); // function expression
+
 
