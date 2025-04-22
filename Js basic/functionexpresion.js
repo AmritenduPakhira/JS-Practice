@@ -52,7 +52,25 @@ const greets = function(name) {
     console.log("Fetched data:", data);
   })
 
+  //
+
+  function calculate(a, b, operation) {
+    return operation(a, b); // operation is a function
+  }
   
+  function add(x, y) {
+    return x + y;
+  }
+  
+  function multiply(x, y) {
+    return x * y;
+  }
+  
+  console.log(calculate(5, 3, add));      // Output: 8
+  console.log(calculate(5, 3, multiply)); // Output: 15
+  
+
+
 
 
   
