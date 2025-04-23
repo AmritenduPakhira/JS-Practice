@@ -37,3 +37,10 @@ const cricketer = [{
     console.log(tennis);
     tennis.sort((a, b) => a.age - b.age);
     console.log(tennis);
+
+    //use reverse method of array
+
+    const cricketer1 = [{name: "Sachin Tendulkar", age: 23}, {name: "Virat Kohli", age: 35}, {name: "MS Dhoni", age: 40}];
+    console.log(cricketer1);
+    cricketer1.reverse((a, b) => a.age - b.age);
+    console.log(cricketer1);
