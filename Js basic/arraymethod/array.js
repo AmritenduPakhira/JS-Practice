@@ -44,3 +44,10 @@ const cricketer = [{
     console.log(cricketer1);
     cricketer1.reverse((a, b) => a.age - b.age);
     console.log(cricketer1);
+
+    //use splice method of array
+
+    const footballer1 = [{name: "Ronaldo", age: 38}, {name: "Messi", age: 36}, {name: "Neymar", age: 31}];
+    console.log(footballer1);
+    footballer1.splice(0, 1, {name: "Ronaldo", age: 38});
+    console.log(footballer1);
