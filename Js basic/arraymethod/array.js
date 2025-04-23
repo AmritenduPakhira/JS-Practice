@@ -30,3 +30,10 @@ const cricketer = [{
     console.log(hockeyer);
     hockeyer.unshift({name: "Wayne Gretzky", age: 62});
     console.log(hockeyer);
+
+    //use sort method of array
+
+    const tennis = [{name: "Roger Federer", age: 42}, {name: "Rafael Nadal", age: 37}, {name: "Novak Djokovic", age: 36}];
+    console.log(tennis);
+    tennis.sort((a, b) => a.age - b.age);
+    console.log(tennis);
