@@ -51,3 +51,11 @@ const cricketer = [{
     console.log(footballer1);
     footballer1.splice(0, 1, {name: "Ronaldo", age: 38});
     console.log(footballer1);
+
+    //use concat method of array
+
+    const basketballer1 = [{name: "Kobe Bryant", age: 41}, {name: "Michael Jordan", age: 60}, {name: "LeBron James", age: 38}];
+    console.log(basketballer1);
+    const basketballer2 = [{name: "Kobe Bryant", age: 41}, {name: "Michael Jordan", age: 60}, {name: "LeBron James", age: 38}];
+    console.log(basketballer2);
+    const basketballer3 = basketballer1.concat(basketballer2);
