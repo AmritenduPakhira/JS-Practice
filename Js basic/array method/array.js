@@ -7,3 +7,12 @@ const cricketer = [{
     cricketer.push({name: "Ravindra Jadeja", age: 34});
 
     console.log(cricketer);
+
+
+
+    // use pop method of array
+    const fotballer = [{name: "Ronaldo", age: 38}, {name: "Messi", age: 36}, {name: "Neymar", age: 31}];
+    console.log(fotballer);
+    fotballer.pop({name: "Ronaldo", age: 38});
+
+    console.log(fotballer);
