@@ -59,3 +59,11 @@ const cricketer = [{
     const basketballer2 = [{name: "Kobe Bryant", age: 41}, {name: "Michael Jordan", age: 60}, {name: "LeBron James", age: 38}];
     console.log(basketballer2);
     const basketballer3 = basketballer1.concat(basketballer2);
+
+    //use join method of array
+    const hockeyer1 = [{name: "Wayne Gretzky", age: 62}, {name: "Sidney Crosby", age: 35}, {name: "Alex Ovechkin", age: 37}];
+    console.log(hockeyer1);
+    const hockeyer2 = [{name: "Wayne Gretzky", age: 62}, {name: "Sidney Crosby", age: 35}, {name: "Alex Ovechkin", age: 37}];
+    console.log(hockeyer2);
+    const hockeyer3 = hockeyer1.join(hockeyer2);
+    console.log(hockeyer3);
