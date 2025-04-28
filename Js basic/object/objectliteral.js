@@ -1,6 +1,8 @@
 let person = {
+
     firstname: "John",
     lastname: "Doe",
+
     fullname() {
         return `The name of the person is ${person.firstname} ${person.lastname}`;
     },
@@ -13,6 +15,9 @@ let person = {
     }
 }
 
+let body =  Object.create(person);
+
 console.log(person.fullname());
 console.log(person.adress.zip);
+console.log(body.fullname());
 

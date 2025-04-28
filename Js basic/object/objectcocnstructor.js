@@ -9,3 +9,4 @@ let person2 = new person("Raj", "Kumar");
 console.log(person1.firstname);
 console.log(person2);
 
+
